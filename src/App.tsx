@@ -11,7 +11,7 @@ const App : React.FC= () => {
       <div className='todo_app_container'>
 
         <div className='new_task_list task_list'>
-          <h2>Task List</h2>
+          <h2><b><u>Task List</u></b></h2>
         <div>
           <TaskList/>
         </div>
@@ -20,7 +20,7 @@ const App : React.FC= () => {
 
       <div>
         <div className='completed_task_list task_list'>
-          <h2>Completed Task</h2>
+        <h2><b><u>Completed Task</u></b></h2>
           </div>
         <div>
           <CompletedTask/>
