@@ -1,6 +1,7 @@
 import React from 'react'
 import TaskList from './components/TaskList'
 import CompletedTask from './components/CompletedTask'
+import './App.scss'
 
 const App : React.FC= () => {
   return (
@@ -11,7 +12,6 @@ const App : React.FC= () => {
 
         <div className='new_task_list task_list'>
           <h2>Task List</h2>
-          
         <div>
           <TaskList/>
         </div>
@@ -26,7 +26,6 @@ const App : React.FC= () => {
           <CompletedTask/>
         </div>
       </div>
-    
       </div>
       
 </div>
